@@ -1,3 +1,5 @@
+//  test test 
+
 public class Level {
     int levelchoice = 0;
     int[][] level1 = new int[][] { //
@@ -203,41 +205,40 @@ public class Level {
             { 1, 1, 1, 1, 1, 1, },
 
     };
-//     int[][] gamelevel2test = new int[][] { //
-//         { 1, 1, 1, 1, 1 },
-//         { 1, 1, 0, 1, 1 },
-//         { 1, 1, 3, 1, 1 },
-//         { 1, 1, 2, 1, 1 },
-//         { 1, 1, 1, 1, 1 },
+    // int[][] gamelevel2test = new int[][] { //
+    // { 1, 1, 1, 1, 1 },
+    // { 1, 1, 0, 1, 1 },
+    // { 1, 1, 3, 1, 1 },
+    // { 1, 1, 2, 1, 1 },
+    // { 1, 1, 1, 1, 1 },
 
-// };
-int[][] leveltest42 = new int[][] { //
-    {1,1,1,1,1},
-    {1,0,2,1,1},
-    {1,2,1,0,1},
-    {1,2,0,3,1},
-    {1,1,1,1,1},
- 
- };
- int[][] gamelevel9test = new int[][] { //
-    { 1, 1, 1, 1, 1 },
-    { 1, 3, 1, 0, 1 },
-    { 1, 2, 2, 0, 1 },
-    { 1, 1, 0, 0, 1 },
-    { 1, 1, 0, 2, 1 },
-    { 1, 1, 1, 1, 1 },
+    // };
+    int[][] leveltest42 = new int[][] { //
+            { 1, 1, 1, 1, 1 },
+            { 1, 0, 2, 1, 1 },
+            { 1, 2, 1, 0, 1 },
+            { 1, 2, 0, 3, 1 },
+            { 1, 1, 1, 1, 1 },
 
-};
-int[][] gamelevel5test = new int[][] { //
-    { 1, 1, 1, 1, 1 },
-    { 1, 0, 0, 4, 1 },
-    { 1, 0, 1, 3, 1 },
-    { 1, 0, 0, 1, 1 },
-    { 1, 1, 0, 2, 1 },
-    { 1, 1, 1, 1, 1 },
+    };
+    int[][] gamelevel9test = new int[][] { //
+            { 1, 1, 1, 1, 1 },
+            { 1, 3, 1, 0, 1 },
+            { 1, 2, 2, 0, 1 },
+            { 1, 1, 0, 0, 1 },
+            { 1, 1, 0, 2, 1 },
+            { 1, 1, 1, 1, 1 },
 
-};
+    };
+    int[][] gamelevel5test = new int[][] { //
+            { 1, 1, 1, 1, 1 },
+            { 1, 0, 0, 4, 1 },
+            { 1, 0, 1, 3, 1 },
+            { 1, 0, 0, 1, 1 },
+            { 1, 1, 0, 2, 1 },
+            { 1, 1, 1, 1, 1 },
 
+    };
 
     public Level(int levelchoice) {
         this.levelchoice = levelchoice;
@@ -299,15 +300,11 @@ int[][] gamelevel5test = new int[][] { //
             return leveltest4;
         } else if (levelchoice == 20) {
             return gamelevel2test;
-        }
-        else if (levelchoice == 21) {
+        } else if (levelchoice == 21) {
             return gamelevel9test;
-        }
-        else if (levelchoice == 22) {
+        } else if (levelchoice == 22) {
             return gamelevel5test;
         }
-    
-
 
         return level1;
     }
